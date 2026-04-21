@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0FF5B5"/>
+      <stop offset="0.55" stop-color="#6D28D9"/>
+      <stop offset="1" stop-color="#07090F"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="14" y1="14" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#shieldGrad)"/>
+  <!-- Shield shape inside -->
+  <path d="M32 10 L50 17 L50 32 C50 43 42 50 32 54 C22 50 14 43 14 32 L14 17 Z" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <!-- Headphones arc -->
+  <path d="M22 34 C22 26.3 26.5 21 32 21 C37.5 21 42 26.3 42 34" stroke="url(#iconGrad)" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <!-- Left ear cup -->
+  <rect x="19" y="33" width="6" height="8.5" rx="3" fill="url(#iconGrad)"/>
+  <!-- Right ear cup -->
+  <rect x="39" y="33" width="6" height="8.5" rx="3" fill="url(#iconGrad)"/>
+</svg>
